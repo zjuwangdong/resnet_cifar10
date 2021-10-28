@@ -16,7 +16,7 @@ import numpy as np
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--data-dir', default='/home/admin/workspace/', type=str,
+parser.add_argument('--data-dir', default='./dataset', type=str,
                     help='path to dataset')
 parser.add_argument('--weight-decay', default=0.0001, type=float,
                     help='parameter to decay weights')
